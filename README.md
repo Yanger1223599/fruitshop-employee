@@ -1,4 +1,11 @@
+# Inventory & Order Management System
+
+這是一個基於 **Java (Swing + Maven + MySQL)** 的進銷訂單管理系統，支援會員、員工、產品與訂單管理，並提供 **Excel 匯出** 功能。
+
+---
+
 ## 📂 專案結構
+```
 controller
  ├─ Choose.java
  ├─ LoginCustomer.java
@@ -50,6 +57,7 @@ util
  ├─ DbConnection.java
  ├─ ExcelExporter.java
  └─ Tool.java
+```
 
 
  <br>
@@ -61,4 +69,11 @@ util
 - **產品管理**：新增、刪除、查詢產品  
 - **訂單管理**：新增訂單、查詢客戶訂單  
 - **資料存取**：使用 DAO + MySQL  
-- **匯出功能**：支援將訂單資料匯出成 **Excel**  
+- **匯出功能**：支援將訂單資料匯出成 **Excel**
+<br>
+環境需求
+
+- Java 8 以上  
+- Maven 3.x  
+- MySQL 5.7/8.0  
+
